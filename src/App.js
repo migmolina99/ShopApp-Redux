@@ -3,6 +3,8 @@ import './App.css';
 import cod4 from './assets/img/cod4.jpeg';
 import BuyGame from './components/BuyGame';
 import GameQuantity from './components/GameQuantity';
+import PokemonFinder from './components/PokemonFinder';
+import PokemonResult from './components/PokemonResult';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
           <BuyGame />
         </div>
       </article>
+      <PokemonFinder />
+      <PokemonResult />
     </div>
   );
 }
